@@ -17,7 +17,7 @@ begin
 end
 
 
-#3. Que fait-on à chacune des lignes suivante ?
+#3. Que fait-on à chacune des lignes suivantes ?
 book = Book.new("20 milles lieues sous les mers")
 book.title
 book.read
@@ -41,7 +41,7 @@ book.read
   
 =end
 
-#5. Soit la classe Book avec les readers suivants
+#5. Considérons la classe Book avec les readers suivants
 begin
   class Book
     attr_reader :title, :author
@@ -55,7 +55,7 @@ begin
   end
 end
 
-#5.2 Est-ce qu'un reader ou un writer est une méthode ?
+#5.2 Un reader ou un writer est-il une méthode ?
 =begin
   
   

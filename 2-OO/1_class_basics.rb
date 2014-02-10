@@ -1,6 +1,6 @@
 #1. Définissez une classe
 begin
-  
+
   
 end
 

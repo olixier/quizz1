@@ -1,7 +1,7 @@
 #1. Définissez une classe
 begin
 
-  
+
 end
 
 #2.1 Qu'est ce qu'un constructeur ? Que doit-il prendre comme arguments ?

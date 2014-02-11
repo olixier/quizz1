@@ -2,23 +2,27 @@
 
 #0. A quoi sert une variable ?
 =begin
-
+  Elle sert à sauver un objet et permettre de le manipuler facilement
+  sans avoir à le rappeler explicitement à chaque fois
 
 =end
 
 #1.Que fait-on précisément à la ligne suivante ? 
-name = "Poney"
+  name = "Poney"
 =begin
-
+on donne à la variable name la classe de String avec la valeur "Poney"
 
 =end
 
 #2. Built-in classes
 # Définissez des variables stockant tous les types de données standard que vous connaissez.
 begin
-  
-  
-  
+  a = true
+  b = 1
+  c = "abc"
+  d = [1, 2]
+  e = { a: 1, b: 2 }
+  f = 1.5
 end
 
 #3. Comment permuter les 2 variables a et b ?
@@ -29,13 +33,15 @@ begin
   a = 1
   b = 2
 
+  a, b = b, a
+
 end
 
 
 #4. A quoi sert une méthode ?
 =begin
-
-
+  une méthode permet d'exécuter des instructions prédéfinies sur une classe d'objet donnée,
+  en fonction, s'ils existent, de paramètres données
 =end
 
 #5. Définissez et appelez 3 méthodes..
@@ -44,8 +50,9 @@ end
 #.. une des trois doit prendre un argument facultatif
 #.. chacune doit renvoyer un type de données différent (String, Hash, Fixnum )
 begin
-
-
+  "hello" << " world"
+  Hash.new {} 
+  "hello".count
 end
 
 #5. OPTIONNEL: Refactorez avec des sous-méthodes (démerdez-vous)
